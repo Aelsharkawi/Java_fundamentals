@@ -24,6 +24,13 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-
+        if(number%2==0)
+        {
+            System.out.println("Number " + number + " is: Even number");
+        }
+        else
+        {
+            System.out.println("Number " + number + " is: Odd number");
+        }
     }
 }
