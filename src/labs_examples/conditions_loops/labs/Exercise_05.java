@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 
 public class Exercise_05 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
         int lower=0, upper=0, count=0, validation=0, sum=0;
