@@ -9,5 +9,15 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args)
+    {
+        int numbers [][] = { {1,2,3},{4,5,6,7},{8,9,10}};
+        for (int []i : numbers) {
+            for (int j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
 
 }

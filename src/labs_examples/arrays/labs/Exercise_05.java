@@ -9,5 +9,14 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args ) {
 
+        int[] numbers = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        for(int i=9; i<numbers.length; i--)
+        {
+            if(i<0){break;}
+            System.out.print(numbers[i] + " ");
+        }
+
+    }
 }

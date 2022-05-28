@@ -1,4 +1,5 @@
 package labs_examples.arrays.labs;
+import java.util.ArrayList;
 
 /**
  *  ArrayLists
@@ -10,4 +11,28 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public  static void main(String[] args)
+    {
+        ArrayList<String> list = new ArrayList();
+        list.add("Eman");
+        list.add(0,"Abdullah");
+        for(String ele: list)
+        {
+            System.out.print(ele + " ");
+        }
+        System.out.println();
+        System.out.println("List size = "+ list.size());
+        System.out.println(list.isEmpty());
+        list.clear();
+        if(list.isEmpty())
+        {
+            System.out.println("No Elements in list!");
+        }
+        list.add("Eman");
+        list.add(0,"Abdullah");
+        for(String ele: list)
+        {
+            System.out.print(ele + " ");
+        }
+    }
 }

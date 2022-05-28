@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.Scanner;
+
 /**
  *  2D Array
  *
@@ -18,6 +20,25 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        
+
+        int [][]  numbers = new int[5][5];
+        int val=1;
+        for(int i=0; i<numbers.length; i++)
+        {
+            for (int j=0 ; j<numbers.length; j++ )
+            {
+                numbers[i][j] = val*3;
+                val++;
+            }
+        }
+
+        for(int i=0; i<numbers.length; i++)
+        {
+            for (int j=0 ; j<numbers.length; j++ )
+            {
+                System.out.print(numbers[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
